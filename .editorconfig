@@ -1,0 +1,29 @@
+root = true
+
+# All files
+[*]
+indent_style = space
+charset = utf-8
+
+# Xml files
+[*.xml]
+indent_size = 2
+
+# Xml project files
+[*.{csproj,fsproj,vbproj,proj,slnx}]
+indent_size = 2
+
+# Xml config files
+[*.{props,targets,config,nuspec}]
+indent_size = 2
+
+[*.json]
+indent_size = 2
+
+[*.{c,cpp,h,asm,i,rh,rc,mak,bat}]
+indent_size = 4
+indent_style = tab
+
+[{CMakeLists.txt,*.cmake,*.rst}]
+indent_size = 2
+indent_style = space
