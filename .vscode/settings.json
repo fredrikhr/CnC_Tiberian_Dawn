@@ -1,4 +1,7 @@
 {
+  "files.associations": {
+    "*.I": "masm"
+  },
   "cmake.buildDirectory": "${workspaceFolder}/BLD/${generator}",
   "cmake.installPrefix": "${workspaceFolder}/BIN/${buildType}",
   "cmake.platform": "Win32",
